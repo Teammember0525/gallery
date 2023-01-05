@@ -16,7 +16,7 @@ function Card () {
             <div className="first"><Image src={Fire} width='28'/></div>
             <div className="second">
               <a className="mb-0" href="/detail">iQuitNotes #09275</a>
-              <Image src={HeatScale} />
+              <Image src={HeatScale}/>
             </div>
           </div>
         </div>

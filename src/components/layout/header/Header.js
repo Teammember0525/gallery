@@ -4,6 +4,7 @@ import '../../../assets/css/home.css';
 import Logo from "../../../assets/images/logo/logo.svg";
 import ShoppingBag from "../../../assets/images/icons/shoppingBag.svg";
 import Search from "../../../assets/images/icons/Search.svg";
+import { BsList } from "react-icons/bs";
 
 function Header() {
 
@@ -11,7 +12,7 @@ function Header() {
     <div className="Header">
       <Navbar collapseOnSelect expand="lg" bg="white" variant="white" className='navbar-custom'>
       <Container>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Toggle aria-controls="responsive-navbar-nav"><BsList className='fs-1'/></Navbar.Toggle>
         <Navbar.Brand href="https://iquitnotes.com/">
           <Image src={Logo}/>
         </Navbar.Brand>
