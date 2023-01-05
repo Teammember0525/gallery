@@ -1,0 +1,128 @@
+.custom-padding {
+  padding-left: 11rem;
+  padding-right: 11rem;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.custom-font-h1 {
+  color: #121212;
+}
+
+.rarity-title {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.price-eth {
+  font-size: 24px;
+  color: #121212;
+}
+
+.price-dollar {
+  font-size: 24px;
+  color: #9d9d9d;
+}
+
+.custom-button {
+  background-color: #121212;
+  color: white;
+  padding: 10px 30px;
+  border: unset;
+  min-width: 244px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* .custom-button:hover {
+  padding: 13px 33px;
+} */
+
+.custom-button:active {
+  background-image: linear-gradient(to right, #50A0FF , #E41B00);
+}
+
+.black-section {
+  background-color: #121212;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.owner-title {
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social .first {
+  width: 62px;
+  text-align: center;
+}
+
+.social .second {
+  width: 86px;
+  text-align: center;
+}
+
+.social .third {
+  width: 86px;
+  text-align: center;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.per {
+  color: #9d9d9d;
+  font-size: 14px;
+}
+
+.room-table {
+  font-size: 14px;
+  color: #121212;
+  text-decoration: underline;
+}
+
+.home-address {
+  font-size: 14px;
+  color: #121212;
+}
+
+.custom-modal .modal-dialog {
+  max-width: 620px!important;
+}
+
+.modal-content {
+  background: unset!important;
+  border: unset!important;
+}
+
+.modal-header {
+  border: unset!important;
+}
+
+.modal-body {
+  padding: 0px!important;
+}
+
+.modal-image {
+  width: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+  .custom-padding {
+    padding: 0px;
+  }
+}
